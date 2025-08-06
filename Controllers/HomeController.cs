@@ -80,7 +80,7 @@ namespace Practical9.Controllers
         {
             try
             {
-                SqlCommand myDeleteCommand = new SqlCommand("Delete from Name where ID=" + id, myConnection);
+                SqlCommand myDeleteCommand = new SqlCommand("Delete from Members where ID=" + id, myConnection);
 
                 myConnection.Open();
                 int rowsAffected = myDeleteCommand.ExecuteNonQuery();

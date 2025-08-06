@@ -8,6 +8,6 @@ namespace Practical9.Controllers
 {
     public static class Globals
     {
-        public static string ConnectionString = "Data Source=.;Initial Catalog=ClubMembers;Integrated Security=True";
+        public static string ConnectionString = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=ClubMembers;Integrated Security=True";
     }
 }
